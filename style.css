@@ -1,0 +1,66 @@
+/* Umum */
+body {
+    background: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Judul halaman */
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tombol */
+.btn {
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Tabel */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.table th {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+}
+.table td {
+    vertical-align: middle;
+}
+
+/* Cover thumbnail */
+.table img {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.table img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Form */
+input, textarea, select {
+    border-radius: 8px !important;
+}
+
+/* Detail page layout */
+.detail-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.detail-container img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
